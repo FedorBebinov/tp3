@@ -47,7 +47,7 @@ def test_max_number():
     print()
     for s in list_of_int:
         start_time = datetime.now()
-        assert max_number(list_of_int) == 0
+        assert max_number(list_of_int) == max(list_of_int)
         print(sys.getsizeof(s), 'bytes  ', datetime.now() - start_time)
 
 
